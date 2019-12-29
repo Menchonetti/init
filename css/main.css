@@ -1,0 +1,46 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+/* ---- Particles.js ---- */
+
+canvas {
+  display: block;
+vertical-align: bottom;
+z-index:99999999;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  top:0px;
+display:block
+  position:absolute;
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width:320px){
+  #particuloso {
+height:800px;
+position:absolute;
+}
+}
+
+
+
+
+
+
+
+
