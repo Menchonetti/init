@@ -1,12 +1,25 @@
+/* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
+
+/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/*
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - callback');
+});
+*/
+
+/* Otherwise just put the config content (json): */
+
 /* ---- particles.js config ---- */
 
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 380,
+      "value": 300,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 900
       }
     },
     "color": {
@@ -19,7 +32,7 @@ particlesJS("particles-js", {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 3
       },
       "image": {
         "src": "img/github.svg",
@@ -34,14 +47,14 @@ particlesJS("particles-js", {
         "enable": false,
         "speed": 1,
         "opacity_min": 0.1,
-        "sync": false
+        "sync": true
       }
     },
     "size": {
       "value": 3,
       "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 40,
         "size_min": 0.1,
         "sync": false
@@ -58,7 +71,7 @@ particlesJS("particles-js", {
       "enable": true,
       "speed": 6,
       "direction": "none",
-      "random": false,
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -90,15 +103,15 @@ particlesJS("particles-js", {
         }
       },
       "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
+        "distance": 200,
+        "size": 20,
+        "duration": 4,
         "opacity": 8,
         "speed": 3
       },
       "repulse": {
-        "distance": 140,
-        "duration": 0.5
+        "distance": 80,
+        "duration": 0.4
       },
       "push": {
         "particles_nb": 4
@@ -111,4 +124,6 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
+
+/* ---- stats.js config ---- */
 
